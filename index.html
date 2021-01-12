@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/moon.css" id="theme">
+		<link rel="stylesheet" href="Karencye/style.css">
 		
 		
 		<!-- Theme used for syntax highlighted code -->
@@ -122,20 +123,33 @@
 				</section>
 				<!--FAVORITE PHILOSOPHER-->
 				<section data-background-image="img/bg.gif">
-					
-	
-					<section data-transition ="slide-in fade-out" >
-						
-					</section>
+
+					<div class="body-container">
+						<div class="quote-container">
+							<p class="sender-content" id="sender"> Al Joshua Matibag
+							</p> 
+							<p class="philosopher-quote" id="quotes">
+								"I think; therefore I am"
+							</p>
+							<p class="philosopher-author" id="author">
+								Rene Descartes
+							</p>
+						</div>
+						<button onclick="generatemoto()" class="button" id="btn" >
+							Philosopher Generator
+						</button>
+					</div>
+
 					
 				</section>
 			
 		</div>
-
+		
 		<script src="dist/reveal.js"></script>
 		<script src="plugin/notes/notes.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
+		<script src="js/javascript.js"></script>
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/

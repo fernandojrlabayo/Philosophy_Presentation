@@ -1,0 +1,37 @@
+.quote-container{
+    width: 800px;
+    height: 40vh;
+    background-color: #DDD8B8;
+    opacity: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 1rem;
+    color: #000000;
+
+}
+.btn{
+    position: fixed;
+    top:-40%;
+    left: 40% !important;
+    width: 200px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFE381;
+    color: #000000;
+    font-size: large;
+}
+.philosopher-quote{
+    padding: 20px;
+    color: #3083DC;
+
+}
+.philosopher-author{
+    margin-right: 20px;
+    text-align: right;
+    color: #79B791;
+    font-size: 36px;
+
+}
