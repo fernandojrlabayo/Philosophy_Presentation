@@ -6,59 +6,8 @@
 * Copyright (C) 2020 Hakim El Hattab, https://hakim.se
 */
 
-.p-container{
-	width: 100%;
-	height:100%;
-	display:grid;
-	grid-template-columns:1fr 1fr 1fr;
-	grid-template-rows: auto auto;
-	grid-gap: 10px;
-}
-.p-box{
-  overflow: hidden;
-	border-radius: 10px;
-	box-shadow: 2px 2px 13px rgba(0,0,0,0.3);
-	position: relative;
- 
-}
-.p-box img{
-	width: 100%;
-	height: 100%;
-	object-fit: fill;
-}
 
-.overlay-text{
-	font-family: calibri;
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	background-color: rgba(23,209,172,0.80);
-	display:none;
-	
-}
-.overlay-text h1{
-	font-size: 2rem !important;
-	margin: 0px;
-	padding: 0px;
-	letter-spacing: 2px;
-	
-}
-.overlay-text p{
-	font-size: 1.2rem;
-	margin: 0px;
- 
- 
-}
-.p-box:hover .overlay-text{
-	display: flex;
-	
-}
+
 .reveal .r-stretch,.reveal .stretch {
     max-width: none;
     max-height: none;
