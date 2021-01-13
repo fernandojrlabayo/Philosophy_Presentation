@@ -1,6 +1,6 @@
 .quote-container{
     width: 800px;
-    height: 40vh;
+    height: 60vh;
     background-color: #DDD8B8;
     opacity: 90%;
     margin-left: auto;
@@ -9,6 +9,7 @@
     padding: 20px;
     border-radius: 1rem;
     color: #000000;
+
 
 }
 #btn{
